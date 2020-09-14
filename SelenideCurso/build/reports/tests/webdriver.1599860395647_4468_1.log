@@ -1,0 +1,316 @@
+[1599860395.902][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 26516
+[1599860395.902][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1599860396.819][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\patricia.lemos\\IdeaProjects\\SelenideCurso\\build\\downloads\\1599860393873_4468_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\patricia.lemos\\IdeaProjects\\SelenideCurso\\build\\downloads\\1599860393873_4468_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1599860396.822][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\patricia.lemos\\IdeaProjects\\SelenideCurso\\build\\downloads\\1599860393873_4468_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1599860396.832][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1599860396.834][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1599860396.834][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\PATRIC~1.LEM\AppData\Local\Temp\scoped_dir9432_624220938" data:,
+[1599860397.465][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1599860399.470][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1599860401.487][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\PATRIC~1.LEM\\AppData\\Local\\Temp\\scoped_dir9432_624220938"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58633"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "405be2fd10c84128d4729c8927be0f71"
+}
+[1599860401.554][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1599860401.554][INFO]: Waiting for pending navigations...
+[1599860401.556][INFO]: Done waiting for pending navigations. Status: ok
+[1599860401.665][INFO]: Waiting for pending navigations...
+[1599860401.666][INFO]: Done waiting for pending navigations. Status: ok
+[1599860401.666][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1599860401.676][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND Navigate {
+   "url": "http://sistemas.gx2.com.br/RocketTest/wwpbaseobjects.samplelogin.aspx"
+}
+[1599860401.676][INFO]: Waiting for pending navigations...
+[1599860401.677][INFO]: Done waiting for pending navigations. Status: ok
+[1599860402.350][INFO]: Waiting for pending navigations...
+[1599860448.392][INFO]: Done waiting for pending navigations. Status: disconnected: received Inspector.detached event
+[1599860448.405][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE Navigate
+[1599860448.667][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860448.668][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860448.903][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860448.903][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860449.110][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860449.110][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860449.316][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860449.316][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860449.522][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860449.523][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860449.730][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860449.731][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860449.935][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860449.936][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860450.141][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860450.141][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860450.349][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860450.349][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860450.554][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860450.554][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860450.761][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860450.761][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860451.021][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860451.021][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860451.226][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860451.227][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860451.436][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860451.436][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860451.649][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860451.649][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860451.856][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860451.856][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860452.065][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860452.065][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860452.273][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860452.273][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860452.479][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vSECUSERNAME"
+}
+[1599860452.479][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860452.692][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1599860452.692][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860452.696][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND Screenshot {
+
+}
+[1599860452.696][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE Screenshot ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+[1599860452.727][INFO]: [405be2fd10c84128d4729c8927be0f71] COMMAND Quit {
+
+}
+[1599860452.727][INFO]: [405be2fd10c84128d4729c8927be0f71] RESPONSE Quit
